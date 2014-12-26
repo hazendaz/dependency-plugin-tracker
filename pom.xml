@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.hazendaz</groupId>
         <artifactId>base-parent</artifactId>
-        <version>4</version>
+        <version>5</version>
     </parent>
     <artifactId>dependency-plugin-tracker</artifactId>
     <packaging>pom</packaging>
@@ -13,6 +13,11 @@
     <description>Dependency Tracker using Maven Site Version Checks</description>
     <inceptionYear>2011</inceptionYear>
     <dependencies>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>animal-sniffer-maven-plugin</artifactId>
+            <version>1.13</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-clean-plugin</artifactId>
@@ -136,7 +141,7 @@
         <dependency>
             <groupId>net.alchim31.maven</groupId>
             <artifactId>yuicompressor-maven-plugin</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.1</version>
         </dependency>
         <dependency>
             <groupId>com.googlecode.maven-java-formatter-plugin</groupId>
@@ -208,7 +213,7 @@
         <dependency>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>wagon-maven-plugin</artifactId>
-            <version>1.0-beta-5</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>

@@ -27,6 +27,12 @@
             <groupId>com.github.github</groupId>
             <artifactId>site-maven-plugin</artifactId>
             <version>0.10</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.eclipse.mylyn.github</groupId>
+                    <artifactId>org.eclipse.egit.github.core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.eluder.coveralls</groupId>

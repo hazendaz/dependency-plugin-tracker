@@ -157,7 +157,7 @@
         <dependency>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.4</version>
+            <version>0.8.5</version>
         </dependency>
         <!-- This is to force java 9+ compliance only -->
         <dependency>

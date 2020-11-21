@@ -1,4 +1,4 @@
-base-parent (https://github.com/hazendaz/base-parent)
+dependency-plugin-tracker (https://github.com/hazendaz/dependency-plugin-tracker)
 
 Copyright ${license.git.copyrightYears} Hazendaz.
 

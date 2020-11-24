@@ -23,11 +23,29 @@
         <version>26</version>
         <relativePath />
     </parent>
+
+    <groupId>com.github.hazendaz</groupId>
     <artifactId>dependency-plugin-tracker</artifactId>
     <packaging>pom</packaging>
+
     <name>dependency-plugin-tracker</name>
     <description>Dependency Tracker using Maven Site Version Checks</description>
     <inceptionYear>2011</inceptionYear>
+
+    <scm>
+        <connection>scm:git:ssh://git@github.com/hazendaz/dependency-plugin-tracker.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/hazendaz/dependency-plugin-tracker.git</developerConnection>
+        <url>https://github.com/hazendaz/dependency-plugin-tracker</url>
+        <tag>HEAD</tag>
+    </scm>
+    <distributionManagement>
+        <site>
+            <id>gh-pages</id>
+            <name>Dependency Plugin Tracker GitHub Pages</name>
+            <url>github:https://hazendaz.github.io/dependency-plugin-tracker/</url>
+        </site>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>com.mycila</groupId>

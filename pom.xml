@@ -26,6 +26,7 @@
 
     <groupId>com.github.hazendaz</groupId>
     <artifactId>dependency-plugin-tracker</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>dependency-plugin-tracker</name>

@@ -41,9 +41,9 @@
     </scm>
     <distributionManagement>
         <site>
-            <id>gh-pages</id>
+            <id>gh-pages-scm</id>
             <name>Dependency Plugin Tracker GitHub Pages</name>
-            <url>github:https://hazendaz.github.io/dependency-plugin-tracker/</url>
+            <url>scm:git:ssh://git@github.com/hazendaz/dependency-plugin-tracker.git</url>
         </site>
     </distributionManagement>
 

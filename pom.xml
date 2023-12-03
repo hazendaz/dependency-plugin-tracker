@@ -181,7 +181,7 @@
         <dependency>
             <groupId>com.github.spotbugs</groupId>
             <artifactId>spotbugs-maven-plugin</artifactId>
-            <version>4.8.1.0</version>
+            <version>4.8.2.0</version>
         </dependency>
         <dependency>
             <groupId>com.github.hazendaz.maven</groupId>

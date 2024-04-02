@@ -191,7 +191,7 @@
         <dependency>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.11</version>
+            <version>0.8.12</version>
         </dependency>
         <!-- This is to force java to latest compliance only -->
         <dependency>

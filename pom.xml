@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.mycila</groupId>
             <artifactId>license-maven-plugin</artifactId>
-            <version>4.3</version>
+            <version>4.4</version>
         </dependency>
         <dependency>
             <groupId>io.github.git-commit-id</groupId>

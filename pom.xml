@@ -273,6 +273,11 @@
                     <artifactId>rewrite-maven-plugin</artifactId>
                     <version>6.21.1</version>
                 </plugin>
+                <plugin>
+                    <groupId>com.akathist.maven.plugins.launch4j</groupId>
+                    <artifactId>launch4j-maven-plugin</artifactId>
+                    <version>2.6.0</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>

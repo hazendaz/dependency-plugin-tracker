@@ -272,7 +272,7 @@
                 <plugin>
                     <groupId>org.openrewrite.maven</groupId>
                     <artifactId>rewrite-maven-plugin</artifactId>
-                    <version>6.28.0</version>
+                    <version>6.28.1</version>
                 </plugin>
                 <plugin>
                     <groupId>com.akathist.maven.plugins.launch4j</groupId>

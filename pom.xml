@@ -202,7 +202,7 @@
                 <plugin>
                     <groupId>org.ow2.asm</groupId>
                     <artifactId>asm</artifactId>
-                    <version>9.9.1</version>
+                    <version>9.10</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
